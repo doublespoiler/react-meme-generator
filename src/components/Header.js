@@ -1,12 +1,15 @@
-export default function  Header() {
-  return(
-    <header className='header'>
-      <img 
-        src={require('./../images/trollface.png')}
-        alt='top kek'
-        className='header--image' />
-      <h2 className='header--title'>Meme Generator</h2>
-      <h4 className='header--project'>React Course - Project 3</h4>
-    </header>
-  )
+import React from "react"
+
+export default function Header() {
+    return (
+        <header className="header">
+            <img 
+                src="./../images/trollface.png" 
+                className="header--image"
+                alt="top kek"
+            />
+            <h2 className="header--title">Meme Generator</h2>
+            <h4 className="header--project">React Course - Project 3</h4>
+        </header>
+    )
 }
